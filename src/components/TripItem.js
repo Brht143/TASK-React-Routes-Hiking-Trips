@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function TripItem({ trip }) {
   return (
 
-    <Link to="#">
-      <div className="col-md-6 col-lg-4 mb-5">
+    <Link to={`/TripDetail/${trip.id}`} className="col-md-6 col-lg-4 mb-5">
+      <div >
         <div
           className="portfolio-item mx-auto"
           data-bs-toggle="modal"
